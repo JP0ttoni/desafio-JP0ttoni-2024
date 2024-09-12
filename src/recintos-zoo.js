@@ -22,7 +22,7 @@ class RecintosZoo {
                     
             }
         }
-        var get_animal = animal_struct.filter(elemento => elemento.especie_a.includes(animal));
+        var get_animal = animal_struct.filter(elemento => elemento.especie_a == animal);
         var array_sort = [];
         if(get_animal[0].bioma_a.includes(' '))
         {
